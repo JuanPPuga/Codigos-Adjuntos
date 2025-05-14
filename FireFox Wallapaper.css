@@ -1,4 +1,5 @@
 /* Aplicar estilos a las páginas de inicio, nueva pestaña y navegación privada */
+/* Por parte de creacion de la carpeta es: FOl: "Chrome" = ".CSS" + "img.fold" (Image_Selected)*/
 @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
     
     /* Cambiar el color del texto y añadir sombra para mejorar la visibilidad */
@@ -19,7 +20,7 @@
         height: 100vh; /* Altura completa de la ventana */
 
         /* Configurar la imagen de fondo */
-        background: black no-repeat url(img/Ireland-HQ_00.jpeg) center; /* Imagen personalizada centrada con fondo negro */
+        background: black no-repeat url(img/) center; /* Imagen personalizada centrada con fondo negro */
         background-size: cover; /* Ajustar la imagen para cubrir toda la pantalla */
     }
 }
