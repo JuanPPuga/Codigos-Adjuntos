@@ -14,7 +14,7 @@ Windows permite múltiples modificaciones para mejorar la experiencia del usuari
 
 ## ⚡ PowerShell
 PowerShell es una herramienta poderosa para automatización y administración del sistema:
-- **Actualización y mejoras**: PowerShell 7 introduce nuevas características como operadores ternarios y ejecución paralela.
+- **Actualización y mejoras**: PowerShell, introduciendo nuevas características como operadores ternarios y ejecución paralela.
 - **Comandos útiles**: Puedes modificar políticas de ejecución y archivos del sistema con comandos avanzados.
 - **Automatización**: Usa scripts para administrar tareas repetitivas y mejorar la eficiencia.
 
