@@ -1,0 +1,37 @@
+/* Aplicar estilos a las páginas de inicio, nueva pestaña y navegación privada */
+/* Por parte de creacion de la carpeta es: FOl: "Chrome" = ".CSS" + "img.fold" (Image_Selected)*/
+@-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing){
+
+/* Cambiar el color del texto y añadir sombra para mejorar la visibilidad */
+.click-target-container *,
+/* Elementos interactivos en la pantalla */
+.top-sites-list * {
+    /* Lista de sitios principales */
+    color: #fff !important;
+    /* Color blanco para mejorar el contraste */
+    text-shadow: 2px 2px 2px #222 !important;
+    /* Sombra negra para mejor legibilidad */
+}
+
+/* Agregar una imagen de fondo personalizada */
+body::before {
+    content: "";
+    /* Elemento vacío para actuar como capa de fondo */
+    z-index: -1;
+    /* Colocar el fondo detrás de los demás elementos */
+    position: fixed;
+    /* Fijar la imagen en su lugar */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    /* Ancho completo de la ventana */
+    height: 100vh;
+    /* Altura completa de la ventana */
+
+    /* Configurar la imagen de fondo */
+    background: black no-repeat url(img/) center;
+    /* Imagen personalizada centrada con fondo negro */
+    background-size: cover;
+    /* Ajustar la imagen para cubrir toda la pantalla */
+}
+}
