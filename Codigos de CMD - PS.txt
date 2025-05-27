@@ -1,0 +1,28 @@
+## Codigos de Simbologia del Sistema [CMD] y PowerShell para modificaciones o acciones dentro de un sistema Windows.
+
+Aviso!:
+// = Prompt CMD  ||  \\ = PowerShell
+
+// Reestablecer menu de interaccion a Windows 10.
+C: \Users\NameUser> reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+
+\\ Para ver el modelo, frecuencia y marca de la ram instalada.
+PS C:\Users\NameUser> Get-CimInstance Win32_PhysicalMemory | Format-Table Manufacturer, Capacity, Speed, PartNumber, SerialNumber
+
+\\ Para solo ver la capacidad del equipo y la velocidad la cual trabaja el Hardware.
+PS C:\Users\NameUser> Get-CimInstance Win32_PhysicalMemory | Select-Object Speed, Capacity
+
+\\ Informacion Completa del Sistema y Componentes de Hardware.
+PS C:\Users\NameUser> Get-ComputerInfo
+
+\\ Informacion del Prcesador: Nombre | Manufacturado | Numero de Nucleos | Maximo de Velocidad de Reloj.
+PS C:\Users\NameUser> Get-CimInstance Win32_Processor | Format-Table Name, Manufacturer, NumberOfCores, MaxClockSpeed
+
+\\ Informacion del Disco o Discos dentro del sistema.
+PS C:\Users\NameUser> Get-PhysicalDisk | Format-Table DeviceID, MediaType, Size
+
+\\ Informacion sobre la tarjeta grafica.
+PS C:\Users\NameUser> Get-CimInstance Win32_VideoController | Format-Table Name, DriverVersion, VideoProcessor, AdapterRAM
+
+\\ Informe de Red o Network en funcionamiento [Datos Basicos].
+PS C:\Users\NameUser> Get-NetAdapter | Format-Table Name, InterfaceDescription, Status
