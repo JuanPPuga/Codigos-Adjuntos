@@ -1,8 +1,9 @@
-  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
- ▒▒---------------------------------------------------------▒▒
-▒▒▒------------------ Lenguaje de .C -----------------------▒▒▒
- ▒▒---------------------------------------------------------▒▒
-  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+█████████████████████████████████████████████████████████████
+██---------------------------------------------------------██
+███                 Lenguaje de .C                        ███
+██---------------------------------------------------------██
+█████████████████████████████████████████████████████████████
+
 »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
 // "<stdio.h>"  = Fichero de Entrada o Salida 
 // "<locale.h>" = Identificador de Simbolos o Acentuación 
@@ -37,7 +38,7 @@ del archivo + .h)
 // "strcmp"     = Funcion que compara dos cadenas de caracteres
 
 // "setlocale"  = Identificador de Letras y Signos en "printf"
-// ("LC_ALL,"")" = Parte de "Setlocale" como identificador 
+// "(LC_ALL,"")" = Parte de "Setlocale" como identificador 
 
 // "switch"     = En caso de una variable, inicio de una 
 // "case"       = Opciones de Switch para clasificar opciones
@@ -53,219 +54,148 @@ del archivo + .h)
 
 «««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
 
-Comands ASCII (ASS-Kee)
+█████████████████████████████████████████████████████████████
+██---------------------------------------------------------██
+███                 Lenguaje de .Java                     ███
+██---------------------------------------------------------██
+█████████████████████████████████████████████████████████████
 
-LIST: 1 - 255
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+// "package" 
+= Es el paquete el cual esta el codiogo
+// "public class (Nombre de Archivo)" 
+= Es el Nombre de dicho archivo y su funcion publica
+// "import" 
+= Es el porte de funcion que tiene el programa
 
+// "java.util.Scanner;" 
+= Funcion escaner para funciones en consola del programa.
+// "public static Scanner s = new Scanner(System.in);" 
+= Funcion la cual funciona con el importe de "java.util.Scanner;"
+// "System.out.println("Mensage");" 
+= Funcion de Mensaje en base  a Scanner  
+// "Nombre de variable = s.nextLine();" 
+= Es base al (sout+alt) la funcion de salto de linea
 
-ASCII Line 1 > 10:
-Alt + 1 = ☺ Alt + 2 = ☻ 
-Alt + 3 = ♥ Alt + 4 = ♦ 
-Alt + 5 = ♣ Alt + 6 = ♠ 
-Alt + 7 = • Alt + 8 = ◘ 
-Alt + 9 = ○ Alt + 10 = ◙
+// "javax.swing.JOptionPane;" 
+= Es el importe de la funcion de programa en forma de ventanas
+emergentes.
 
+// "JOptionPane.showInputDialog("Ejemplo");"
+= Esta funcion es basica para mostrar una intruccion si se agrega
+" Variable = " antes de la linea se asigna la variable 
+// "Double.parseDouble(JOptionPane.showInputDialog("Ejemplo"));"
+= Es una Funcion la cual aparece en forma de numeros con decimal
+por parte de JOptionPane.
+// "Double.parseDouble(JOptionPane.showInputDialog("Ejemplo"));"
+= Funcion base a numeros enteros en forma de JOptionPane
 
-ASCII Line 11 > 20:
-Alt + 11 = ♂ Alt + 12 = ♀ 
-Alt + 13 = ♪ Alt + 14 = ♫ 
-Alt + 15 = ☼ Alt + 16 = ► 
-Alt + 17 = ◄ Alt + 18 = ↕ 
-Alt + 19 = ‼ Alt + 20 = ¶
+// "JOptionPane.showMessageDialog(null, String.format("Ejemplo %.xf" + Variable);"
+= Es el resultado de lo procesado base al codigo y configurado a
+modo de mostrar cierta cantidad de decimales base a el primer 
+mensaje, "String.format es agregado" + %.xnumeroflotante".
 
+"
 
-ASCII Line 21 > 30:
-Alt + 21 = § Alt + 22 = ▬ 
-Alt + 23 = ↨ Alt + 24 = ↑ 
-Alt + 25 = ↓ Alt + 26 = → 
-Alt + 27 = ← Alt + 28 = ∟ 
-Alt + 29 = ↔ Alt + 30 = ▲
+// (public static void main(String[] args)) 
+= Es la funcion de ejecucion del programa como princiapal "Main"
 
-
-ASCII Line 31 > 40:
-Alt + 31 = ▼ Alt + 32 =  
-Alt + 33 = ! Alt + 34 = " 
-Alt + 35 = # Alt + 36 = $ 
-Alt + 37 = % Alt + 38 = & 
-Alt + 39 = ' Alt + 40 = (
-
-
-ASCII Line 41 > 50:
-Alt + 41 = ) Alt + 42 = * 
-Alt + 43 = + Alt + 44 = , 
-Alt + 45 = - Alt + 46 = . 
-Alt + 47 = / Alt + 48 = 0 
-Alt + 49 = 1 Alt + 50 = 2
-
-
-ASCII Line 51 > 60:
-Alt + 51 = 3 Alt + 52 = 4 
-Alt + 53 = 5 Alt + 54 = 6 
-Alt + 55 = 7 Alt + 56 = 8 
-Alt + 57 = 9 Alt + 58 = : 
-Alt + 59 = ; Alt + 60 = <
-
-
-ASCII Line 61 > 70:
-Alt + 61 = = Alt + 62 = > 
-Alt + 63 = ? Alt + 64 = @ 
-Alt + 65 = A Alt + 66 = B 
-Alt + 67 = C Alt + 68 = D 
-Alt + 69 = E Alt + 70 = F
-
-
-ASCII Line 71 > 80:
-Alt + 71 = G Alt + 72 = H 
-Alt + 73 = I Alt + 74 = J 
-Alt + 75 = K Alt + 76 = L 
-Alt + 77 = M Alt + 78 = N 
-Alt + 79 = O Alt + 80 = P
-
-
-ASCII Line 81 > 90:
-Alt + 81 = Q Alt + 82 = R 
-Alt + 83 = S Alt + 84 = T 
-Alt + 85 = U Alt + 86 = V 
-Alt + 87 = W Alt + 88 = X 
-Alt + 89 = Y Alt + 90 = Z
-
-
-ASCII Line 91 > 100:
-Alt + 91 = [ Alt + 92 = \ 
-Alt + 93 = ] Alt + 94 = ^ 
-Alt + 95 = _ Alt + 96 = ` 
-Alt + 97 = a Alt + 98 = b 
-Alt + 99 = c Alt + 100 = d
-
-
-ASCII Line 101 > 110:
-Alt + 101 = e Alt + 102 = f 
-Alt + 103 = g Alt + 104 = h 
-Alt + 105 = i Alt + 106 = j 
-Alt + 107 = k Alt + 108 = l 
-Alt + 109 = m Alt + 110 = n
-
-
-ASCII Line 111 > 120:
-Alt + 111 = o Alt + 112 = p 
-Alt + 113 = q Alt + 114 = r 
-Alt + 115 = s Alt + 116 = t 
-Alt + 117 = u Alt + 118 = v 
-Alt + 119 = w Alt + 120 = x
-
-
-ASCII Line 121 > 130:
-Alt + 121 = y Alt + 122 = z 
-Alt + 123 = { Alt + 124 = | 
-Alt + 125 = } Alt + 126 = ~ 
-Alt + 127 = (DEL) Alt + 128 = Ç 
-Alt + 129 = (unassigned) Alt + 130 = é
-
-
-ASCII Line 131 > 140:
-Alt + 131 = â Alt + 132 = ä 
-Alt + 133 = à Alt + 134 = å 
-Alt + 135 = ç Alt + 136 = ê 
-Alt + 137 = ë Alt + 138 = è 
-Alt + 139 = ï Alt + 140 = î
-
-
-ASCII Line 141 > 150:
-Alt + 141 = ì Alt + 142 = Ä 
-Alt + 143 = Å Alt + 144 = É 
-Alt + 145 = (unassigned) Alt + 146 = (unassigned) 
-Alt + 147 = (unassigned) Alt + 148 = (unassigned) 
-Alt + 149 = (unassigned) Alt + 150 = (unassigned)
-
-
-ASCII Line 151 > 160:
-Alt + 151 = (unassigned) Alt + 152 = (unassigned) 
-Alt + 153 = (unassigned) Alt + 154 = (unassigned) 
-Alt + 155 = (unassigned) Alt + 156 = (unassigned) 
-Alt + 157 = (unassigned) Alt + 158 = Ø 
-Alt + 159 = ø Alt + 160 = ¿
-
-
-ASCII Line 161 > 170:
-Alt + 161 = ¡ Alt + 162 = (unassigned) 
-Alt + 163 = £ Alt + 164 = (unassigned) 
-Alt + 165 = ¥ Alt + 166 = (unassigned) 
-Alt + 167 = § Alt + 168 = ¿ 
-Alt + 169 = © Alt + 170 = ª
-
-
-ASCII Line 171 > 180:
-Alt + 171 = « Alt + 172 = ¬ 
-Alt + 173 = ­ Alt + 174 = ® 
-Alt + 175 = (unassigned) Alt + 176 = ¯ 
-Alt + 177 = ± Alt + 178 = ² 
-Alt + 179 = ³ Alt + 180 = ´
-
-
-ASCII Line 181 > 190:
-Alt + 181 = µ Alt + 182 = ¶ 
-Alt + 183 = · Alt + 184 = ¸ 
-Alt + 185 = ¹ Alt + 186 = º 
-Alt + 187 = » Alt + 188 = ¼ 
-Alt + 189 = ½ Alt + 190 = ¾
-
-
-ASCII Line 191 > 200:
-Alt + 191 = ¿ Alt + 192 = À 
-Alt + 193 = Á Alt + 194 = Â 
-Alt + 195 = Ã Alt + 196 = Ä 
-Alt + 197 = Å Alt + 198 = Æ 
-Alt + 199 = Ç Alt + 200 = È
-
-
-ASCII Line 201 > 210:
-Alt + 201 = É Alt + 202 = Ê 
-Alt + 203 = Ë Alt + 204 = Ì 
-Alt + 205 = Í Alt + 206 = Î 
-Alt + 207 = Ï Alt + 208 = Ð 
-Alt + 209 = Ñ Alt + 210 = Ò
-
-
-ASCII Line 211 > 220:
-Alt + 211 = Ó Alt + 212 = Ô 
-Alt + 213 = Õ Alt + 214 = Ö 
-Alt + 215 = × Alt + 216 = Ø 
-Alt + 217 = Ù Alt + 218 = Ú 
-Alt + 219 = Û Alt + 220 = Ü
-
-
-ASCII Line 221 > 230:
-Alt + 221 = Ý Alt + 222 = Þ 
-Alt + 223 = ß Alt + 224 = à 
-Alt + 225 = á Alt + 226 = â 
-Alt + 227 = ã Alt + 228 = ä 
-Alt + 229 = å Alt + 230 = æ
-
-
-ASCII Line 231 > 240:
-Alt + 231 = ç Alt + 232 = è 
-Alt + 233 = é Alt + 234 = ê 
-Alt + 235 = ë Alt + 236 = ì 
-Alt + 237 = í Alt + 238 = î 
-Alt + 239 = ï Alt + 240 = ð
-
-
-ASCII Line 241 > 250:
-Alt + 241 = ñ Alt + 242 = ò 
-Alt + 243 = ó Alt + 244 = ô 
-Alt + 245 = õ Alt + 246 = ö 
-Alt + 247 = ÷ Alt + 248 = ø 
-Alt + 249 = ù Alt + 250 = ú
-
-
-ASCII Line 250 > 255:
-Alt + 251 = û Alt + 252 = ü 
-Alt + 253 = ý Alt + 254 = þ 
-Alt + 255 = ÿ
+// (String) 
+= Conjunto de letras y simbolos (No numeración)
+// (int) 
+= Numero enteros sin decimal de la variable
+// (Double/Float) 
+= Numeros en Decimal base a la variable 
+// (Char) 
+= Funcion desde C el cual asina un caracter a una variable 
 
 «««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
 
-Comands C.S.S. (Cascading Style Sheets)
+█████████████████████████████████████████████████████████████
+██---------------------------------------------------------██
+███                 Lenguaje de .HTML                     ███
+██---------------------------------------------------------██
+█████████████████████████████████████████████████████████████
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+(HyperText Markup Language)
+
+- `<!DOCTYPE>`: Define el tipo de documento y la versión de HTML.
+- `<html>`: El elemento raíz de un documento HTML.
+- `<head>`: Contiene metadatos/información para el documento.
+- `<title>`: Especifica un título para el documento.
+- `<body>`: Define el cuerpo del documento y contiene todo el contenido visible.
+- `<h1>` a `<h6>`: Define encabezados de distintos tamaños.
+- `<p>`: Define un párrafo.
+- `<a>`: Define un hipervínculo.
+- `<img>`: Inserta una imagen.
+- `<ul>`: Define una lista no ordenada.
+- `<ol>`: Define una lista ordenada.
+- `<li>`: Define un ítem de lista.
+- `<div>`: Define una sección o un contenedor.
+- `<span>`: Define un contenedor en línea.
+- `<form>`: Define un formulario para la entrada del usuario.
+- `<input>`: Define un campo de entrada.
+- `<button>`: Define un botón.
+- `<select>`: Define una lista desplegable.
+- `<option>`: Define las opciones dentro de una lista desplegable.
+- `<textarea>`: Define un área de texto multilínea.
+- `<table>`: Define una tabla.
+- `<tr>`: Define una fila de tabla.
+- `<td>`: Define una celda de tabla.
+- `<th>`: Define una celda de encabezado de tabla.
+- `<link>`: Define la relación entre un documento y un recurso externo (usualmente hojas de estilo).
+- `<meta>`: Define metadatos que no pueden ser representados por otros elementos HTML.
+- `<script>`: Define un script del lado del cliente.
+- `<style>`: Define información de estilo para un documento.
+
+>>Elementos HTML:
+
+<html>: Define el principio y el final de un documento HTML.
+<head>: Contiene información meta sobre el documento HTML.
+<title>: Define el título del documento.
+<body>: Contiene el contenido visible del documento.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Define encabezados de diferentes niveles.
+<p>: Define un párrafo.
+<a>: Define un hipervínculo.
+<img>: Define una imagen.
+<div>: Define una sección genérica o un contenedor.
+<span>: Define una sección en línea.
+<ul>: Define una lista desordenada.
+<ol>: Define una lista ordenada.
+<li>: Define un elemento de lista.
+<table>: Define una tabla.
+<tr>: Define una fila en una tabla.
+<td>: Define una celda de datos en una tabla.
+<th>: Define una celda de encabezado en una tabla.
+<form>: Define un formulario.
+<input>: Define un campo de entrada.
+<textarea>: Define un área de texto multilinea.
+<button>: Define un botón.
+
+>>Atributos HTML (algunos comunes):
+
+id: Define un identificador único para un elemento.
+class: Define una o más clases para un elemento.
+style: Define estilos en línea para un elemento.
+src: Especifica la ubicación de un recurso, como una imagen, enlace o script.
+href: Especifica la URL de destino de un hipervínculo.
+alt: Proporciona un texto alternativo para elementos como imágenes.
+title: Proporciona un título descriptivo para un elemento.
+target: Especifica dónde abrir el enlace.
+rel: Define la relación entre el documento actual y el recurso vinculado (para enlaces).
+type: Especifica el tipo de contenido de un elemento, como el tipo de entrada en un campo de formulario.
+
+«««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
+
+█████████████████████████████████████████████████████████████
+██---------------------------------------------------------██
+███                 Lenguaje de .CSS                      ███
+██---------------------------------------------------------██
+█████████████████████████████████████████████████████████████
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+(Cascading Style Sheets)
 
 - `color`: Define el color del texto. Ejemplo: `color: blue;` hará que el texto sea azul.
 - `font-family`: Establece la fuente del texto. Ejemplo: `font-family: Arial;` aplicará la fuente Arial al texto.
@@ -336,136 +266,15 @@ creará un diseño con cabecera, contenido principal, barra lateral y pie de pá
 
 «««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
 
-Comands H.T.M.L. (HyperText Markup Language)
+█████████████████████████████████████████████████████████████
+██---------------------------------------------------------██
+███                 Lenguaje de .JavaScript               ███
+██---------------------------------------------------------██
+█████████████████████████████████████████████████████████████
 
-- `<!DOCTYPE>`: Define el tipo de documento y la versión de HTML.
-- `<html>`: El elemento raíz de un documento HTML.
-- `<head>`: Contiene metadatos/información para el documento.
-- `<title>`: Especifica un título para el documento.
-- `<body>`: Define el cuerpo del documento y contiene todo el contenido visible.
-- `<h1>` a `<h6>`: Define encabezados de distintos tamaños.
-- `<p>`: Define un párrafo.
-- `<a>`: Define un hipervínculo.
-- `<img>`: Inserta una imagen.
-- `<ul>`: Define una lista no ordenada.
-- `<ol>`: Define una lista ordenada.
-- `<li>`: Define un ítem de lista.
-- `<div>`: Define una sección o un contenedor.
-- `<span>`: Define un contenedor en línea.
-- `<form>`: Define un formulario para la entrada del usuario.
-- `<input>`: Define un campo de entrada.
-- `<button>`: Define un botón.
-- `<select>`: Define una lista desplegable.
-- `<option>`: Define las opciones dentro de una lista desplegable.
-- `<textarea>`: Define un área de texto multilínea.
-- `<table>`: Define una tabla.
-- `<tr>`: Define una fila de tabla.
-- `<td>`: Define una celda de tabla.
-- `<th>`: Define una celda de encabezado de tabla.
-- `<link>`: Define la relación entre un documento y un recurso externo (usualmente hojas de estilo).
-- `<meta>`: Define metadatos que no pueden ser representados por otros elementos HTML.
-- `<script>`: Define un script del lado del cliente.
-- `<style>`: Define información de estilo para un documento.
-
->>Elementos HTML:
-
-<html>: Define el principio y el final de un documento HTML.
-<head>: Contiene información meta sobre el documento HTML.
-<title>: Define el título del documento.
-<body>: Contiene el contenido visible del documento.
-<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Define encabezados de diferentes niveles.
-<p>: Define un párrafo.
-<a>: Define un hipervínculo.
-<img>: Define una imagen.
-<div>: Define una sección genérica o un contenedor.
-<span>: Define una sección en línea.
-<ul>: Define una lista desordenada.
-<ol>: Define una lista ordenada.
-<li>: Define un elemento de lista.
-<table>: Define una tabla.
-<tr>: Define una fila en una tabla.
-<td>: Define una celda de datos en una tabla.
-<th>: Define una celda de encabezado en una tabla.
-<form>: Define un formulario.
-<input>: Define un campo de entrada.
-<textarea>: Define un área de texto multilinea.
-<button>: Define un botón.
-
->>Atributos HTML (algunos comunes):
-
-id: Define un identificador único para un elemento.
-class: Define una o más clases para un elemento.
-style: Define estilos en línea para un elemento.
-src: Especifica la ubicación de un recurso, como una imagen, enlace o script.
-href: Especifica la URL de destino de un hipervínculo.
-alt: Proporciona un texto alternativo para elementos como imágenes.
-title: Proporciona un título descriptivo para un elemento.
-target: Especifica dónde abrir el enlace.
-rel: Define la relación entre el documento actual y el recurso vinculado (para enlaces).
-type: Especifica el tipo de contenido de un elemento, como el tipo de entrada en un campo de formulario.
-
-«««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
-
-  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
- ▒▒---------------------------------------------------------▒▒
-▒▒▒------------------ Lenguaje de Java ---------------------▒▒▒
- ▒▒---------------------------------------------------------▒▒
-  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 
 »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
-NOTA: (Esta Guia esta en desarrollo), No se sabe si se creara 
-una guia extra para diferentes funciones o metodos.
-
-// "package" 
-= Es el paquete el cual esta el codiogo
-// "public class (Nombre de Archivo)" 
-= Es el Nombre de dicho archivo y su funcion publica
-// "import" 
-= Es el porte de funcion que tiene el programa
-
-// "java.util.Scanner;" 
-= Funcion escaner para funciones en consola del programa.
-// "public static Scanner s = new Scanner(System.in);" 
-= Funcion la cual funciona con el importe de "java.util.Scanner;"
-// "System.out.println("Mensage");" 
-= Funcion de Mensaje en base  a Scanner  
-// "Nombre de variable = s.nextLine();" 
-= Es base al (sout+alt) la funcion de salto de linea
-
-// "javax.swing.JOptionPane;" 
-= Es el importe de la funcion de programa en forma de ventanas
-emergentes.
-
-// "JOptionPane.showInputDialog("Ejemplo");"
-= Esta funcion es basica para mostrar una intruccion si se agrega
-" Variable = " antes de la linea se asigna la variable 
-// "Double.parseDouble(JOptionPane.showInputDialog("Ejemplo"));"
-= Es una Funcion la cual aparece en forma de numeros con decimal
-por parte de JOptionPane.
-// "Double.parseDouble(JOptionPane.showInputDialog("Ejemplo"));"
-= Funcion base a numeros enteros en forma de JOptionPane
-
-// "JOptionPane.showMessageDialog(null, String.format("Ejemplo %.xf" 
-+ Variable);"
-= Es el resultado de lo procesado base al codigo y configurado a
-modo de mostrar cierta cantidad de decimales base a el primer 
-mensaje, "String.format es agregado" + %.xnumeroflotante".
-
-// "public static void main(String[] args)" 
-= Es la funcion de ejecucion del programa como princiapal "Main"
-
-// "String" 
-= Conjunto de letras y simbolos (No numeración)
-// "int" 
-= Numero enteros sin decimal de la variable
-// "Double/Float" 
-= Numeros en Decimal base a la variable 
-// "Char" 
-= Funcion desde C el cual asina un caracter a una variable 
-
-«««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
-
-Comands J.S. (JavaScript)
+(JavaScript)
 
 - `alert()`: Muestra un mensaje y espera que el usuario presione "Aceptar". Ejemplo: `alert('Hola Mundo!');`
 - `console.log()`: Imprime un mensaje en la consola del navegador. Útil para depuración. Ejemplo: `console.log('Mensaje');`
@@ -501,5 +310,3 @@ devuelve [2, 3] y el array original se convierte en [1, 'a', 'b', 4].
 
 - `Object.keys()`: Devuelve un array de las propiedades nombres de un objeto. Ejemplo: `Object.keys({a: 1, b: 2, c: 3});` devuelve ['a', 'b', 'c'].
 - `Object.values()`: Devuelve un array de los valores de las propiedades de un objeto. Ejemplo: `Object.values({a: 1, b: 2, c: 3});` devuelve [1, 2, 3].
-
-«««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
