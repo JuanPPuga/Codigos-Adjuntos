@@ -1,5 +1,5 @@
 /* Aplicar estilos a las páginas de inicio, nueva pestaña y navegación privada */
-/* Por parte de creacion de la carpeta es: FOl: "Chrome" = ".CSS" + "img.fold" (Image_Selected)*/
+/* Por parte de creacion de la carpeta es: FOl: "Chrome" = "userContent.CSS" + "img.fold" (Image_Selected)*/
 @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
 
 /* Cambiar el color del texto y añadir sombra para mejorar la visibilidad */
