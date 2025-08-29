@@ -26,3 +26,6 @@ PS C:\Users\NameUser> Get-CimInstance Win32_VideoController | Format-Table Name,
 
 \\ Informe de Red o Network en funcionamiento [Datos Basicos].
 PS C:\Users\NameUser> Get-NetAdapter | Format-Table Name, InterfaceDescription, Status
+
+\\ Sacar contraseñas de Wi-Fi desde CMD central
+C:\Users\NN>netsh (Apartado de Redes) | wlan show profile (Lista de redes por perfiles) | Seleccionar el nombre de la red con "" y luego agregar key=clear para mostrar la contraseña.
